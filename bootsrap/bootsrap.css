@@ -1,0 +1,56 @@
+.banner {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../bootsrap/images/freestocks-_3Q3tsJ01nc-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  padding-top: 300px;
+  padding-left: 30px;
+  color: white;
+}
+.nav-link:hover {
+  color: yellow !important;
+}
+
+.content {
+  border: 1px solid grey;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.content:hover {
+  transform: scale(1.05);
+  color: orange !important;
+  cursor: pointer;
+}
+.card {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
+.img-content img {
+  height: 190px;
+  width: 375px;
+  transition: all 0.3s ease;
+}
+
+.img-content img:hover {
+  transform: scale(1.02);
+}
+
+.link-shopping {
+  margin-left: 230px;
+}
+
+#link:hover {
+  color: orange !important;
+}
